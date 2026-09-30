@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 from app.db import get_session
 from app.models import Prediction
-from app.predictor import predict_eta
+from app.ml.predictor import predict_eta
 from app.schemas import EtaRequest, PredictionResponse
 
 router = APIRouter(tags=["predictions"])

@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
-from app.anomaly_detector import detect_anomaly
+from app.ml.anomaly_detector import detect_anomaly
 from app.db import get_session
 from app.models import AnomalyAlert
 from app.schemas import AnomalyRequest, AnomalyResponse
