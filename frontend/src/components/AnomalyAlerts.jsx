@@ -1,0 +1,1 @@
+export default function AnomalyAlerts({ alerts = [] }) { return <div className="alerts-list">{alerts.map((alert) => <div className="alert" key={alert.id || alert.type}><strong>{alert.type}</strong><span>{alert.message}</span></div>)}</div> }

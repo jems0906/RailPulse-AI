@@ -1,0 +1,1 @@
+export default function NetworkHealth({ health }) { return <section className="metrics"><strong>{health?.on_time_percentage}% on time</strong><span>{health?.active_anomalies} active anomalies</span></section> }

@@ -1,0 +1,80 @@
+{
+  "linear_regression_rmse": 0.24182497654193336,
+  "random_forest_rmse": 0.2537771074331859,
+  "xgboost_rmse": 0.24792165895449372,
+  "auc": 0.9085057652819459,
+  "f1": 0.9863152559553978,
+  "model": "xgboost",
+  "dataset_rows": 5000,
+  "training_date": "2026-09-30",
+  "feature_importance": [
+    {
+      "feature": "distance_miles",
+      "importance": 0.14079192280769348
+    },
+    {
+      "feature": "route_segments",
+      "importance": 0.08150796592235565
+    },
+    {
+      "feature": "interchanges",
+      "importance": 0.3638569116592407
+    },
+    {
+      "feature": "commodity_code",
+      "importance": 0.03457244113087654
+    },
+    {
+      "feature": "customer_class_code",
+      "importance": 0.012914665974676609
+    },
+    {
+      "feature": "priority_code",
+      "importance": 0.03086252696812153
+    },
+    {
+      "feature": "departure_hour",
+      "importance": 0.012972671538591385
+    },
+    {
+      "feature": "day_of_week",
+      "importance": 0.013912144117057323
+    },
+    {
+      "feature": "month",
+      "importance": 0.013344804756343365
+    },
+    {
+      "feature": "season_code",
+      "importance": 0.014817931689321995
+    },
+    {
+      "feature": "train_priority",
+      "importance": 0.014499017037451267
+    },
+    {
+      "feature": "railcars",
+      "importance": 0.015491767786443233
+    },
+    {
+      "feature": "tonnage",
+      "importance": 0.015600194223225117
+    },
+    {
+      "feature": "origin_delay_rate",
+      "importance": 0.015023179352283478
+    },
+    {
+      "feature": "destination_delay_rate",
+      "importance": 0.014943339861929417
+    },
+    {
+      "feature": "historical_transit_hours",
+      "importance": 0.09621700644493103
+    },
+    {
+      "feature": "route_on_time_rate",
+      "importance": 0.10867155343294144
+    }
+  ]
+}

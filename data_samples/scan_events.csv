@@ -1,0 +1,7 @@
+event_id,train_id,yard_id,event_type,dwell_hours
+1,BNSF-401,Alliance,departure,8.2
+2,BNSF-401,Chicago,arrival,16.4
+3,BNSF-612,Omaha,departure,11.1
+4,BNSF-612,Memphis,arrival,21.2
+5,BNSF-887,Fort Worth,departure,7.4
+6,BNSF-887,Kansas City,arrival,12.6

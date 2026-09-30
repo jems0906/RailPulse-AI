@@ -1,0 +1,1 @@
+Run migrations from the backend directory with `alembic upgrade head`. The FastAPI startup initializer remains available for local SQLite convenience; Railway deployments should use Alembic migrations for controlled schema changes.

@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+railpulse.db
+!backend/trained_models/*.joblib
+frontend/node_modules/
+frontend/dist/
+.ipynb_checkpoints/
+.pytest_cache/

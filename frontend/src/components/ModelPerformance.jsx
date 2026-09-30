@@ -1,0 +1,1 @@
+export default function ModelPerformance({ models = [] }) { return <div className="model-list">{models.map((model) => <div className="model-row" key={model.name}><strong>{model.name}</strong><span>{model.rmse_hours ? `${model.rmse_hours}h RMSE` : `${Math.round((model.auc || 0) * 100)}% AUC`}</span></div>)}</div> }

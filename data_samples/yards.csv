@@ -1,0 +1,7 @@
+yard_id,region,average_daily_throughput,historical_delay_rate
+Alliance,Plains,520,0.08
+Chicago,Midwest,680,0.14
+Kansas City,Plains,590,0.11
+Fort Worth,South,630,0.09
+Memphis,South,410,0.17
+Omaha,Plains,460,0.07

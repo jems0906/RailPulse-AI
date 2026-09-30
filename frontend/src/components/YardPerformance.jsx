@@ -1,0 +1,1 @@
+export default function YardPerformance({ yards = [] }) { return <div className="yard-list">{yards.map((yard) => <div key={yard.id}><strong>{yard.id}</strong><span>{yard.dwell}h dwell</span></div>)}</div> }

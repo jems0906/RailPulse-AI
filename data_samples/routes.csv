@@ -1,0 +1,4 @@
+route_id,origin_yard,destination_yard,distance_miles,route_segments,interchanges
+R-001,Alliance,Chicago,780,7,1
+R-002,Omaha,Memphis,690,6,2
+R-003,Fort Worth,Kansas City,510,5,1

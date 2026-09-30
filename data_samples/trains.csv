@@ -1,0 +1,4 @@
+train_id,train_priority,scheduled_departure,railcars,total_tonnage
+BNSF-401,1,2026-09-30T06:00:00Z,108,14200
+BNSF-612,2,2026-09-30T08:00:00Z,92,9800
+BNSF-887,3,2026-09-30T11:00:00Z,74,7200
